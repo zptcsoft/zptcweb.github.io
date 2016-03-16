@@ -6,13 +6,31 @@
 </head>
 <body>
 	<h1>链接</h1>
+	<h2>目录</h2>
+	<ol>
+		<li><a href="#normalLink">普通链接</a></li>
+		<li><a href="#mailLink">邮件链接</a></li>
+		<li><a href="#pageLink">页内连接</a></li>
+		<li><a href="#hotLink">热区链接</a></li>
+	</ol>
+	<a name="normalLink"></a>
 	<h2>普通链接</h2>
-	<a href="http://www.baidu.com" target="_self">百度</a> <br>
-	<a href="abc/abc.html">本地链接</a>
+	<p>a标签代表链接，href属性指定链接的地址，target属性指定链接打开方式</p>
+	<p><a href="http://www.baidu.com" target="_blank">百度</a></p>
+	<a name="mailLink"></a>
 	<h2>邮件链接</h2>
-	<a href="mailto:whqet@qq.com?subject=Hello%20again">发个邮件</a>
-	<h2>内部链接</h2>
-	<a href="#history">发展历史</a>
+	<p>链接的href属性里使用<strong>mailto:whqet@qq.com</strong>形式</p>
+	<p><a href="mailto:whqet@qq.com">发个邮件</a>
+		代码如下<pre><code>&lt;a href="mailto:whqet@qq.com">发个邮件</a></code></pre></p>
+	<a name="pageLink"></a>
+	<h2>页内链接</h2>
+	<p>一个网页内部的链接，实现页内导航，目录导航等。</p>
+	<ol>
+		<li>定义锚记(页内链接的目标) &lt;a name="normalLink"&gt;&lt;/a&gt;</li>
+		<li>实现页内链接，&lt;a href="#normalLink"&gt;普通链接&lt;/a&gt;</li>
+	</ol>
+	<h2></h2>
+	<a name="hotLink"></a>
 	<h2>热区链接</h2>
 	<img src="abc/html5_css_javascript.png" alt="" usemap="#html5">
 	<map name="html5">
