@@ -8,3 +8,6 @@
 
 ## 列表
 [列表练习](img.html)  [列表预览](http://zptcweb.github.io/list.html)
+
+## 链接
+[链接练习](link.html)  [链接预览](http://zptcweb.github.io/link.html)
