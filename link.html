@@ -32,17 +32,18 @@
 	<h2></h2>
 	<a name="hotLink"></a>
 	<h2>热区链接</h2>
-	<img src="abc/html5_css_javascript.png" alt="" usemap="#html5">
-	<map name="html5">
-		<area shape="circle" coords="210,117,30" href="http://qq.com" alt="热区链接" target="_blank">
-		<area shape="poly" coords="25,46,155,46,142,179,60,200" href="http://zptcsoft.github.io/img.html" alt="热区链接" target="_blank">
-		<area shape="rect" coords="500,46,610,179" href="http://www.baidu.com" alt="">
-	</map>
+	<p>在图片上创建各种形状的链接，多边形，圆形，矩形</p>
+	<p>创建热区链接的步骤如下：</p>
 	<ol>
-		<li>先定义热区，map定义地图(abc)，可以多个area。</li>
-		<li>在img标签利用usemap属性(#abc)，使用map</li>
-		<li>map利用定义几种area，circle\rect\poly</li>
+		<li>创建热区，一个map，多个area</li>
+		<li>使用热区，img标签usemap属性</li>
 	</ol>
+	<map name="linkMap">
+		<area shape="poly" coords="27,46,154,46,143,176,90,190,36,176" href="https://www.baidu.com/s?wd=html5" alt="" target="_blank">
+		<area shape="circle" coords="208,116,30" href="//qq.com" alt="">
+		<area shape="rect" coords="502,46,615,185" href="https://zptcweb.github.io/img.html" alt="">
+	</map>
+	<img src="img/html5_css_javascript.png" alt="" usemap="#linkMap">
 	<p>22</p>
 	<p>22</p>
 	<p>22</p>
