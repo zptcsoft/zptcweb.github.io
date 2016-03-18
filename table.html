@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    /*table{
+    	width: 600px;
+    }
+	table,td,th{
+		border:1px solid #000;
+		border-collapse: collapse;
+	}
+	td:nth-child(3){
+		text-align: right;
+	}*/
+    </style>
+</head>
+
+<body>
+    <h2>表格</h2>
+    <p>table tr th td</p>
+    <p>table表格</p>
+    <ul>
+        <li>width属性 设置表格的宽度</li>
+        <li>border属性 边框</li>
+        <li>cellpadding属性 单元格填充 单元格内容与边框之间的距离</li>
+        <li>cellspacing属性 单元格间距 单元格之间的距离（边框之间） </li>
+        <li>frame属性 设置表格外侧边框</li>
+        <li>rules属性 设置表格内侧边框</li>
+        <li>summary属性 设置表格的摘要，主要给搜索引擎使用，建议使用</li>
+    </ul>
+    <p>用于设置样式的属性(summary除外)，其实不建议使用的。建议用css设置表格样式</p>
+    <p>caption 表格标题</p>
+    <p>thead tbody tfoot，浏览器回默认加 tbody</p>
+    <p>col colgroup 可以按列设置属性</p>
+    <table width="600" cellpadding="10" cellspacing="0" border="1" summary="会员信息表">
+        <caption>会员信息表</caption>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>跑步</th>
+                <th>游泳</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>张三</td>
+                <td>18</td>
+                <td>16</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>16</td>
+                <td>18</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>王五</td>
+                <td>20</td>
+                <td colspan="2" rowspan="2">未测试</td>
+            </tr>
+            <tr>
+                <td>赵六</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

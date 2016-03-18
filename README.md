@@ -11,3 +11,6 @@
 
 ## 链接
 [链接练习](link.html)  [链接预览](http://zptcweb.github.io/link.html)
+
+## 表格
+[表格练习](table.html)  [表格预览](http://zptcweb.github.io/table.html)
