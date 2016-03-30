@@ -1,4 +1,4 @@
-# 课程练习
+﻿# 课程练习
 
 ## 文本格式化
 [测试练习](text.html)  [练习预览](http://zptcweb.github.io/text.html)
@@ -14,3 +14,7 @@
 
 ## 表格
 [表格练习](table.html)  [表格预览](http://zptcweb.github.io/table.html)
+
+## 边框
+[边框01练习](border01.html)  [边框01预览](http://zptcweb.github.io/border01.html)
+[边框02练习](border02.html)  [边框02预览](http://zptcweb.github.io/border02.html)
